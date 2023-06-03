@@ -6,7 +6,7 @@ os.system('git pull')
 
 	try:
 
-		__import__("run").licensi()
+		__import__("run").Login()
 
 	except Exception as e:
 
